@@ -14,11 +14,13 @@ body {
 }
 
 .logo {
-  width: 100%;
+  width: 95%;
+  padding-left: 5.5px;
 }
 
 .header_title {
   width: 80%;
+
 
 }
 
@@ -26,10 +28,11 @@ body {
   text-align: right;
   font-weight: 300;
   text-transform: uppercase;
+  padding-right: 7.5px;
 
 }
 .name {
-  font-size: 1.6em;
+  font-size: 1.5em;
   margin-top: 5px;
 
 }
@@ -42,15 +45,15 @@ body {
 hr {
   margin-bottom: 25px;
   margin-top: 2px;
-  width: 100%;
+  width: 95%;
   height: 1px;
   background-color: dimgray;
   border-color: dimgray;
 }
 
 .main_img {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  width: 95%;
+  /*margin-left: 9px;*/
+  padding-left: 9px;
 
 }
