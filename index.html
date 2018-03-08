@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio Project</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/styles.css">
 
   </head>
   <body>
 
     <header class="header">
       <div class="header_img">
-        <img class="logo" src="udacity240.png" alt="The Udacity Logo">
+        <img class="logo" src="images/udacity240.png" alt="The Udacity Logo">
       </div>
       <div class="header_title">
         <h1 class="name">Christoforos Psychas</h1>
@@ -22,28 +22,32 @@
     <main>
       <section class="content">
         <div class="content_main_img">
-          <img class="main_img" src="ima.jpeg" alt="">
+          <img class="main_img" srcset="images/main_image_tablet.jpeg 1280w,
+                                        images/main_image_desktop.jpeg 1920w"
+                                src="images/main_image_mobile.jpeg" alt="A very nice motto about life">
         </div>
-        <div class="my_projects">
+        <section class="featured_work">
           <h2>Featured Work</h2>
-          <div class="project_1">
-            <img class="project_img" src="animal_trading_card_img.jpeg" alt="">
-            <a href="#">Animal Trading Card</a>
-          </div>
-          <div class="project_2">
-            <img class="project_img" src="mockup_to_article_img.jpeg" alt="">
-            <a href="#">Mockup to Article</a>
-          </div>
-          <div class="project_3">
-            <img class="project_img" src="pixel_art_maker_img.jpeg" alt="">
-            <a href="#">Pixel Art Maker</a>
-
-          </div>
+          <section class="my_projects">
+            <div class="project_1">
+              <img class="project_img" src="images/animal_trading_card_img.jpeg" alt="An image of a gray wolf, covered in snow">
+              <a href="#">Animal Trading Card</a>
+            </div>
+            <div class="project_2">
+              <img class="project_img" src="images/mockup_to_article_img.jpeg" alt="An image about article design">
+              <a href="#">Mockup to Article</a>
+            </div>
+            <div class="project_3">
+              <img class="project_img" src="images/pixel_art_maker_img.jpeg" alt="An image with a girl painting">
+              <a href="#">Pixel Art Maker</a>
+            </div>
+          </section>
         </section>
-      </main>
-      <footer class="footer">
-        <p>©2018 Made by Christoforos Psychas for the Udacity Front-End Web Developer Nanodegree Program</p>
-      </footer>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>©2018 Made by Christoforos Psychas for the Udacity Front-End Web Developer Nanodegree Program</p>
+    </footer>
   </body>
 </html>
 
